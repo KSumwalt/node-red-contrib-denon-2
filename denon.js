@@ -65,7 +65,7 @@ module.exports = function (RED) {
         });
     }
 
-    RED.nodes.registerType("denon-controller", DenonControllerNode);
+    RED.nodes.registerType("denon-controller2", DenonControllerNode);
 
     /**
      * ====== Denon-out =======================
@@ -202,7 +202,7 @@ module.exports = function (RED) {
     }
 
     //
-    RED.nodes.registerType("denon-out", DenonOut);
+    RED.nodes.registerType("denon-out2", DenonOut);
 
     /**
      * ====== Denon-IN ========================
@@ -260,5 +260,5 @@ module.exports = function (RED) {
         });
     }
 
-    RED.nodes.registerType("denon-in", DenonIn);
+    RED.nodes.registerType("denon-in2", DenonIn);
 }
