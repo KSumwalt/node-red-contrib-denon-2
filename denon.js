@@ -3,7 +3,7 @@
  */
 
 const util = require('util'),
-    debug = require('debug')('node-red-contrib-denon'),
+    debug = require('debug')('node-red-contrib-denon2'),
     connectionFSM = require('./lib/connectionFSM.js');
 
 module.exports = function (RED) {
